@@ -102,7 +102,6 @@ private:
         // A list of instance layers names
         std::vector<const char *> enabledLayers
                 {
-                        "VK_LAYER_KHRONOS_validation",
                 };
 
         // A list of enabled instance extensions
