@@ -11,7 +11,7 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 # add header path
 include_directories(
-	/usr/local/include
+	${CMAKE_CURRENT_SOURCE_DIR}/VulkanSDK/source/Vulkan-Headers/include
 )
 
 link_directories(
