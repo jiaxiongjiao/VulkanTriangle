@@ -1,0 +1,18 @@
+# These paths must be manually configured
+
+# Copyright 2020-2021 Hans-Kristian Arntzen
+# SPDX-License-Identifier: Apache-2.0
+
+prefix=/vulkan-sdk/1.2.198.1/x86_64
+exec_prefix=${prefix}
+libdir=${prefix}//vulkan-sdk/1.2.198.1/x86_64/lib
+sharedlibdir=${prefix}//vulkan-sdk/1.2.198.1/x86_64/lib
+includedir=${prefix}/include/spirv_cross
+
+Name: spirv-cross-c-shared
+Description: C API for SPIRV-Cross
+Version: 0.48.0
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lspirv-cross-c-shared
+Cflags: -I${includedir}

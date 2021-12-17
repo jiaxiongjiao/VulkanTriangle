@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GLFW_INCLUDE_VULKAN	main.cpp	/^#define GLFW_INCLUDE_VULKAN$/;"	d	file:
+GPUDevice	main.cpp	/^		VkDevice GPUDevice;$/;"	m	struct:VulkanProgram::VulkanProgramInfo	file:
+VulkanProgram	main.cpp	/^class VulkanProgram$/;"	c	file:
+VulkanProgramInfo	main.cpp	/^	struct VulkanProgramInfo$/;"	s	class:VulkanProgram	file:
+checkEnabledExtensionsSupported	main.cpp	/^	bool checkEnabledExtensionsSupported(const std::vector<VkExtensionProperties>& supportedExtensions,$/;"	f	class:VulkanProgram	file:
+chosenGPU	main.cpp	/^		VkPhysicalDevice chosenGPU;$/;"	m	struct:VulkanProgram::VulkanProgramInfo	file:
+cmdBuffers	main.cpp	/^		std::vector<VkCommandBuffer> cmdBuffers;$/;"	m	struct:VulkanProgram::VulkanProgramInfo	file:
+cmdPool	main.cpp	/^		VkCommandPool cmdPool;$/;"	m	struct:VulkanProgram::VulkanProgramInfo	file:
+createVulkanInstance	main.cpp	/^	void createVulkanInstance()$/;"	f	class:VulkanProgram	file:
+enabledLayersSupported	main.cpp	/^	bool enabledLayersSupported(const std::vector<VkLayerProperties>& supportedLayers,$/;"	f	class:VulkanProgram	file:
+main	main.cpp	/^int main()$/;"	f
+run	main.cpp	/^	void run()$/;"	f	class:VulkanProgram
+vulkanInstance	main.cpp	/^		VkInstance vulkanInstance;$/;"	m	struct:VulkanProgram::VulkanProgramInfo	file:
+vulkanProgramInfo	main.cpp	/^	} vulkanProgramInfo;$/;"	m	class:VulkanProgram	typeref:struct:VulkanProgram::VulkanProgramInfo	file:
