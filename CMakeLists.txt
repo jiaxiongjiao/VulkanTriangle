@@ -15,7 +15,7 @@ include_directories(
 )
 
 link_directories(
-	/usr/local/lib
+	${CMAKE_CURRENT_SOURCE_DIR}/VulkanSDK/x86_64/lib
 )
 
 # Add executable
