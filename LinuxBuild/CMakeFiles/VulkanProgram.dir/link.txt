@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/VulkanProgram.dir/src/main.cpp.o  -o VulkanProgram   -L/home/jiaxiongjiao/VulkanTriangle/VulkanSDK/x86_64/lib  -Wl,-rpath,/home/jiaxiongjiao/VulkanTriangle/VulkanSDK/x86_64/lib ../VulkanSDK/x86_64/lib/libvulkan.so.1.2.198 ../VulkanSDK/x86_64/lib/libvulkan.so.1 glfw3/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 
