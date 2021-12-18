@@ -786,8 +786,8 @@ private:
      */
     void createShaderPipeline()
     {
-        auto vertShaderCode = readFile("/home/joe/LearnVulkan/src/vert.spv");
-        auto fragShaderCode = readFile("/home/joe/LearnVulkan/src/frag.spv");
+        auto vertShaderCode = readFile("../src/vert.spv");
+        auto fragShaderCode = readFile("../src/frag.spv");
 
         vulkanProgramInfo.vertShaderModule = createShaderModule(vertShaderCode);
         vulkanProgramInfo.fragShaderModule = createShaderModule(fragShaderCode);
