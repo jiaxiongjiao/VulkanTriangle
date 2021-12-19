@@ -14,10 +14,6 @@ include_directories(
 	${CMAKE_CURRENT_SOURCE_DIR}/VulkanSDK/source/Vulkan-Headers/include
 )
 
-link_directories(
-	${CMAKE_CURRENT_SOURCE_DIR}/VulkanSDK/x86_64/lib
-)
-
 # Add executable
 add_executable(VulkanProgram src/main.cpp)
 
